@@ -16,6 +16,7 @@ const FILES_TO_CACHE = [
   "/js/index.js",
   "index.html",
   "manifest.json",
+  "/api/transaction",
 ];
 
 // Cache resources
