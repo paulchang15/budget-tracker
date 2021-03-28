@@ -3,6 +3,7 @@ const VERSION = "version_01";
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE = [
+  "/",
   "/css/styles.css",
   "/icons/icon-72x72.png",
   "/icons/icon-96x96.png",
@@ -14,8 +15,8 @@ const FILES_TO_CACHE = [
   "/icons/icon-512x512.png",
   "/js/idb.js",
   "/js/index.js",
-  "index.html",
-  "manifest.json",
+  "/index.html",
+  "/manifest.json",
   "/api/transaction",
 ];
 
